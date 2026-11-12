@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "n": "^11.0.0"
+  },
+  "scripts": {
+    "dev": "npm --prefix ./academia-estudos-estrategicos run dev"
+  }
+}

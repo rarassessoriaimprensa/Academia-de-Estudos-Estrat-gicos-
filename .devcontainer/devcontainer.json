@@ -1,0 +1,12 @@
+{
+  "name": "Academia de Estudos Estratégicos",
+  "postAttachCommand": "bash -lc 'if ! pgrep -f \"[v]ite --host 0.0.0.0\" >/dev/null; then nohup npm run dev > /tmp/academia-vite.log 2>&1 < /dev/null & fi'",
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "Academia de Estudos Estratégicos",
+      "onAutoForward": "openBrowser",
+      "visibility": "private"
+    }
+  }
+}
